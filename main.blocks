@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="9pLrUeL8`WHY{]:W{a,A" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=")*%MG5!`0]L=LGO5.`$;"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # # 
+        . . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="*CAL`;IL=FNw~N@7{cVE"><value name="pause"><shadow type="timePicker" id="=]hDe3Ux23Aptt`cDERj"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="K3Bc8XJHP8{-^4,5ClPD"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="device_pause" id="9|oLxCf[RxebqED4QTkk"><value name="pause"><shadow type="timePicker" id="Fh~Dx$uZy|Q,~CC=`b:p"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="0L0T^h=nOIFnKoqhlUuj"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="MWxRh.VIdG9bKzT{3f)T"><value name="pause"><shadow type="timePicker" id="R^RZVNJw8`^Ytyz5P9Ap"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="ZmE,a=_3Z!=I!a0.v2x["><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="/VR]_Vf{S-TWaP5cQ8_4"><value name="pause"><shadow type="timePicker" id="q=wSEmmX5tGlrf_v$h4Q"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="k%kZ/?FLy_e7=^nU-?#a"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field><next><block type="device_pause" id="v%4IjgrMRGJ30O*;Nf.="><value name="pause"><shadow type="timePicker" id=";z#QQ9!.(;1B=^y|ZZkp"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="}6[*bd1rb:0yg5I(k5~e"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="MVbo7r-gZ/OR@PW}QjPX"><value name="pause"><shadow type="timePicker" id="7m#Mvltoue:7T`Kj{/2F"><field name="ms">100</field></shadow></value><next><block type="music_playable_play" id="JV$Z#R@4`#@6Pn3St,.w"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" id="bWLy[YR8gD/0P~-k!-.s" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Square</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Curve</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":5000,\"startFrequency\":1600,\"endFrequency\":1,\"startVolume\":255,\"endVolume\":0,\"wave\":\"square\",\"interpolation\":\"curve\",\"effect\":\"none\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="4^3~2G45k2:.%?eC}=Cj"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">1600</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="t1,LB!e[C{gM($5+L?i`"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="?QXsfQx2{`0EWu_lBREA"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="wEE7gY;`sLn~z;$j_d`g"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="wn1w?/4g@YmQQ8#%!cN2"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
